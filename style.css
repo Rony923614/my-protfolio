@@ -9,9 +9,10 @@ h1{
 }
 .section-all{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 2%;
 }
-section{
+
+.flexible-containers{
     display: flex;
     margin-bottom: 160px;
 
@@ -27,7 +28,7 @@ section{
     font-weight: 700;
     color: aliceblue;
 }
-.Name{
+.color-pink{
     color:#ff448e;
 }
 .banner-1{
@@ -38,4 +39,36 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.exprience-div{
+    box-shadow: 10px 10px 40px gray;
+    width: 44%;
+    margin: 2% 2%;
+    padding: 30px 60px;
+    border-radius: 5px;
+}
+.flexible-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    position: left;
+}
+h2{
+    font-size:42px;
+}
+#baby-stack{
+border-left: 7px solid;
+border-image: linear-gradient(blue, yellow);
+border-image-slice: 1;
+}
+#full-stack{
+    border-left: 7px solid ;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+  
+}
+h3{
+    font-size: 28px;
+}
+footer p{
+    text-align: center;
 }
